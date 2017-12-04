@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/"
+   xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:nsiv="http://www.pbmassoc.com/nsiv"
+   nsiv:spec-issue="3.0.1"><?MENTORPATH?>
+   <idstatus>
+      <dmaddres>
+         <dmc>
+            <avee>
+               <modelic>MQ4C</modelic>
+               <sdc>AA</sdc>
+               <chapnum>08</chapnum>
+               <section>4</section>
+               <subsect>0</subsect>
+               <subject>20</subject>
+               <discode>03</discode>
+               <discodev>A</discodev>
+               <incode>520</incode>
+               <incodev>A</incodev>
+               <itemloc>A</itemloc>
+            </avee>
+         </dmc>
+         <dmtitle>
+            <techname>Forward Ballast Plates</techname>
+            <infoname>Removal</infoname>
+         </dmtitle>
+         <issno inwork="29" issno="000" type="new" />
+         <issdate day="01" month="01" year="2009" />
+         <language country="US" language="en" />
+      </dmaddres>
+      <status>
+         <security class="01" />
+         <datarest>
+            <instruct>
+               <distrib>DISTRIBUTION STATEMENT D: Distribution
+                  authorized to Department of Defense and U.S. DoD
+                  contractors only; Critical Technology 18 December
+                  2007. Other requests for this document shall be
+                  referred to Naval Air Systems Command, PMA-262,
+                  Patuxent River, MD.</distrib>
+               <expcont>
+                  <expstatement>
+                     <p>This document contains technical data whose
+                        export is restricted by the Arms Export Control
+                        Act (Title 22, U.S.C., Sec. 2751 et seq.) or the
+                        Export Administration Act of 1979, as amended
+                        (Title 50, U.S.C., App. 2401, et seq.).
+                        Violation of these export-control laws is
+                        subject to severe criminal penalties.
+                        Dissemination of this document is controlled
+                        under DoD Directive 5230.25.</p>
+                  </expstatement>
+               </expcont>
+               <destruct>Comply with distribution statement and destroy
+                  by any method that will prevent disclosure of contents
+                  or reconstruction of the document.</destruct>
+            </instruct>
+         </datarest>
+         <rpc rpcname="Northrop Grumman">78022</rpc>
+         <orig>78022</orig>
+         <applic>
+            <displaytext>ALL</displaytext>
+         </applic>
+         <brexref>
+            <refdm>
+               <avee>
+                  <modelic>MQ4C</modelic>
+                  <sdc>AA</sdc>
+                  <chapnum>00</chapnum>
+                  <section>0</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>022</incode>
+                  <incodev>A</incodev>
+                  <itemloc>D</itemloc>
+               </avee>
+            </refdm>
+         </brexref>
+         <qa>
+            <firstver type="tabtop" />
+            <secver type="tabtop" />
+         </qa>
+      </status>
+   </idstatus>
+   <content>
+      <refs>
+         <refdm>
+            <avee>
+               <modelic>MQ4C</modelic>
+               <sdc>AA</sdc>
+               <chapnum>00</chapnum>
+               <section>2</section>
+               <subsect>0</subsect>
+               <subject>00</subject>
+               <discode>00</discode>
+               <discodev>A</discodev>
+               <incode>120</incode>
+               <incodev>A</incodev>
+               <itemloc>A</itemloc>
+            </avee>
+            <dmtitle>
+               <techname>Aircraft Safe for Maintenance</techname>
+               <infoname>Pre-Operation</infoname>
+            </dmtitle>
+         </refdm>
+         <refdm>
+            <avee>
+               <modelic>MQ4C</modelic>
+               <sdc>AA</sdc>
+               <chapnum>53</chapnum>
+               <section>5</section>
+               <subsect>1</subsect>
+               <subject>06</subject>
+               <discode>00</discode>
+               <discodev>A</discodev>
+               <incode>520</incode>
+               <incodev>A</incodev>
+               <itemloc>A</itemloc>
+            </avee>
+            <dmtitle>
+               <techname>Side Electronic Support Measure (ESM) Radome</techname>
+               <infoname>Removal</infoname>
+            </dmtitle>
+         </refdm>
+         <refdm>
+            <avee>
+               <modelic>MQ4C</modelic>
+               <sdc>AA</sdc>
+               <chapnum>53</chapnum>
+               <section>5</section>
+               <subsect>1</subsect>
+               <subject>06</subject>
+               <discode>00</discode>
+               <discodev>A</discodev>
+               <incode>720</incode>
+               <incodev>A</incodev>
+               <itemloc>A</itemloc>
+            </avee>
+            <dmtitle>
+               <techname>Side Electronic Support Measure (ESM) Radome</techname>
+               <infoname>Installation</infoname>
+            </dmtitle>
+         </refdm>
+         <refdm>
+            <avee>
+               <modelic>MQ4C</modelic>
+               <sdc>AA</sdc>
+               <chapnum>08</chapnum>
+               <section>1</section>
+               <subsect>0</subsect>
+               <subject>00</subject>
+               <discode>00</discode>
+               <discodev>A</discodev>
+               <incode>030</incode>
+               <incodev>A</incodev>
+               <itemloc>A</itemloc>
+            </avee>
+         </refdm>
+      </refs>
+      <proced>
+         <prelreqs>
+            <reqconds>
+               <reqcondm>
+                  <reqcond>Perform Aircraft Safe For Maintenance -
+                     Pre-Operation</reqcond>
+                  <refdm>
+                     <avee>
+                        <modelic>MQ4C</modelic>
+                        <sdc>AA</sdc>
+                        <chapnum>00</chapnum>
+                        <section>2</section>
+                        <subsect>0</subsect>
+                        <subject>00</subject>
+                        <discode>00</discode>
+                        <discodev>A</discodev>
+                        <incode>120</incode>
+                        <incodev>A</incodev>
+                        <itemloc>A</itemloc>
+                     </avee>
+                  </refdm>
+                  <reqcond>Perform Side Electronic Support Measures
+                     (ESM) Radome - Removal</reqcond>
+                  <refdm>
+                     <avee>
+                        <modelic>MQ4C</modelic>
+                        <sdc>AA</sdc>
+                        <chapnum>53</chapnum>
+                        <section>5</section>
+                        <subsect>1</subsect>
+                        <subject>06</subject>
+                        <discode>00</discode>
+                        <discodev>A</discodev>
+                        <incode>520</incode>
+                        <incodev>A</incodev>
+                        <itemloc>A</itemloc>
+                     </avee>
+                  </refdm>
+               </reqcondm>
+            </reqconds>
+            <reqpers>
+               <person man="1" />
+            </reqpers>
+            <supequip>
+               <supeqli>
+                  <supequi>
+                     <nomen>Torque Wrench (0-120 in-lb)</nomen>
+                     <identno>
+                        <mfc />
+                        <pnr id="d6717e264" nsiv:sfield="pnr pnrsupeq" />
+                     </identno>
+                     <qty>1</qty>
+                  </supequi>
+               </supeqli>
+            </supequip>
+            <supplies>
+               <nosupply />
+            </supplies>
+            <spares>
+               <nospares />
+            </spares>
+            <safety>
+               <nosafety />
+            </safety>
+         </prelreqs>
+         <mainfunc>
+            <step1>
+               <note>
+                  <para>Procedure typical for left-hand and right-hand
+                     upper and lower forward ballast plates.</para>
+               </note>
+               <para>Remove four bolts (a) and four washers (b).</para>
+               <figure nsiv:suppress="false" id="f001">
+                  <title>Forward Ballast Plate Removal</title>
+                  <graphic
+                     nsiv:boardno-uri="file:/C:/Users/blomqro/Desktop/B27/1_Air_Vehicle/25%20Mar%2017%201054/ICN-MQ4C-AA-084020-A-78022-00660-A-01-1.CGM"
+                     nsiv:file="ICN-MQ4C-AA-084020-A-78022-00660-A-01-1.CGM"
+                     boardno="ICN-MQ4C-AA-084020-A-78022-00660-A-01-1"
+                     id="f001g001" />
+               </figure>
+            </step1>
+            <step1>
+               <note>
+                  <para>Quantity of ballast plates may vary depending on
+                     aircraft configuration. A maximum of eight ballast
+                     plates and a minimum of one may be installed to
+                     achieve desired center of gravity.</para>
+               </note>
+               <para>Remove required quantity of ballast plates (c) from
+                  two alignment pins (d).</para>
+            </step1>
+            <step1>
+               <para>Install four bolts (a) and four washers (b).</para>
+            </step1>
+            <step1 check="1">
+               <para>Torque four bolts (a) 70-90 in-lb.</para>
+            </step1>
+         </mainfunc>
+         <closereqs>
+            <reqconds>
+               <reqcondm>
+                  <reqcond>Perform Side Electronic Support Measures
+                     (ESM) Radome - Installation</reqcond>
+                  <refdm>
+                     <avee>
+                        <modelic>MQ4C</modelic>
+                        <sdc>AA</sdc>
+                        <chapnum>53</chapnum>
+                        <section>5</section>
+                        <subsect>1</subsect>
+                        <subject>06</subject>
+                        <discode>00</discode>
+                        <discodev>A</discodev>
+                        <incode>720</incode>
+                        <incodev>A</incodev>
+                        <itemloc>A</itemloc>
+                     </avee>
+                  </refdm>
+               </reqcondm>
+               <reqcondm>
+                  <reqcond>Perform Sample Basic Weight Checklist -
+                     Technical Data </reqcond>
+                  <refdm>
+                     <avee>
+                        <modelic>MQ4C</modelic>
+                        <sdc>AA</sdc>
+                        <chapnum>08</chapnum>
+                        <section>1</section>
+                        <subsect>0</subsect>
+                        <subject>00</subject>
+                        <discode>00</discode>
+                        <discodev>A</discodev>
+                        <incode>030</incode>
+                        <incodev>A</incodev>
+                        <itemloc>A</itemloc>
+                     </avee>
+                  </refdm>
+               </reqcondm>
+            </reqconds>
+         </closereqs>
+      </proced>
+   </content>
+</dmodule>

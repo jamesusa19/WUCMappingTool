@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dmodule xmlns:dc="http://www.purl.org/dc/elements/1.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:nsiv="http://www.pbmassoc.com/nsiv"
+   nsiv:spec-issue="3.0.1">
+   <idstatus>
+      <dmaddres>
+         <dmc>
+            <avee>
+               <modelic>MQ4C</modelic>
+               <sdc>AA</sdc>
+               <chapnum>08</chapnum>
+               <section>4</section>
+               <subsect>0</subsect>
+               <subject>20</subject>
+               <discode>03</discode>
+               <discodev>A</discodev>
+               <incode>941</incode>
+               <incodev>A</incodev>
+               <itemloc>A</itemloc>
+            </avee>
+         </dmc>
+         <dmtitle>
+            <techname>Forward Ballast Plate</techname>
+            <infoname>Illustrated Parts Data</infoname>
+         </dmtitle>
+         <issno issno="000" inwork="02" type="new" />
+         <issdate year="2015" month="06" day="01" />
+         <language country="US" language="en" />
+      </dmaddres>
+      <status>
+         <security class="01" />
+         <datarest>
+            <instruct>
+               <distrib>DISTRIBUTION STATEMENT D: Distribution
+                  authorized to Department of Defense and U.S. DoD
+                  contractors only; Critical Technology 18 December
+                  2007. Other requests for this document shall be
+                  referred to Naval Air Systems Command, PMA-262,
+                  Patuxent River, MD.</distrib>
+               <expcont>
+                  <expstatement>
+                     <p>This document contains technical data whose
+                        export is restricted by the Arms Export Control
+                        Act (Title 22, U.S.C., Sec. 2751 et seq.) or the
+                        Export Administration Act of 1979, as amended
+                        (Title 50, U.S.C., App. 2401, et seq.).
+                        Violation of these export-control laws is
+                        subject to severe criminal penalties.
+                        Dissemination of this document is controlled
+                        under DoD Directive 5230.25.</p>
+                  </expstatement>
+               </expcont>
+               <destruct>Comply with distribution statement and destroy
+                  by any method that will prevent disclosure of contents
+                  or reconstruction of the document.</destruct>
+            </instruct>
+         </datarest>
+         <rpc>78022</rpc>
+         <orig>78022</orig>
+         <actref>
+            <refdm>
+               <avee>
+                  <modelic>MQ4C</modelic>
+                  <sdc>AA</sdc>
+                  <chapnum>00</chapnum>
+                  <section>0</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>00W</incode>
+                  <incodev>A</incodev>
+                  <itemloc>A</itemloc>
+               </avee>
+            </refdm>
+         </actref>
+         <applic>
+            <displaytext>ALL</displaytext>
+         </applic>
+         <brexref>
+            <refdm>
+               <avee>
+                  <modelic>MQ4C</modelic>
+                  <sdc>AA</sdc>
+                  <chapnum>00</chapnum>
+                  <section>0</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>022</incode>
+                  <incodev>A</incodev>
+                  <itemloc>D</itemloc>
+               </avee>
+            </refdm>
+         </brexref>
+         <qa>
+            <firstver type="tabtop" />
+            <secver type="tabtop" />
+         </qa>
+      </status>
+   </idstatus>
+   <content>
+      <ipc>
+         <figure nsiv:suppress="false">
+            <title>Forward Ballast Plate</title>
+            <graphic
+               nsiv:boardno-uri="file:/C:/Users/blomqro/Desktop/B27/1_Air_Vehicle/25%20Mar%2017%201054/ICN-MQ4C-AA-08402003A-941-0001.CGM"
+               nsiv:file="ICN-MQ4C-AA-08402003A-941-0001.CGM" boardno="ICN-MQ4C-AA-08402003A-941-0001">
+               <hotspot apsid="hot0002" apsname="2"
+                  id="f001-s001-hot0002">
+                  <csnref refcsn="084020 1 002 " />
+               </hotspot>
+               <hotspot apsid="hot0003" apsname="3"
+                  id="f001-s001-hot0003">
+                  <csnref refcsn="084020 1 003 " />
+               </hotspot>
+               <hotspot apsid="hot0004" apsname="4"
+                  id="f001-s001-hot0004">
+                  <csnref refcsn="084020 1 004 " />
+               </hotspot>
+               <hotspot apsid="hot0005" apsname="5"
+                  id="f001-s001-hot0005">
+                  <csnref refcsn="084020 1 005 " />
+               </hotspot>
+               <hotspot apsid="hot0006" apsname="6"
+                  id="f001-s001-hot0006">
+                  <csnref refcsn="084020 1 006 " />
+               </hotspot>
+               <hotspot apsid="hot0007" apsname="7"
+                  id="f001-s001-hot0007">
+                  <csnref refcsn="084020 1 007 " />
+               </hotspot>
+               <hotspot apsid="hot0008" apsname="8"
+                  id="f001-s001-hot0008">
+                  <csnref refcsn="084020 1 008 " />
+               </hotspot>
+               <hotspot apsid="hot0009" apsname="9"
+                  id="f001-s001-hot0009">
+                  <csnref refcsn="084020 1 009 " />
+               </hotspot>
+               <hotspot apsid="hot0010" apsname="10"
+                  id="f001-s001-hot0010">
+                  <csnref refcsn="084020 1 010 " />
+               </hotspot>
+               <hotspot apsid="hot0011" apsname="11"
+                  id="f001-s001-hot0011">
+                  <csnref refcsn="084020 1 011 " />
+               </hotspot>
+            </graphic>
+         </figure>
+      </ipc>
+   </content>
+</dmodule>

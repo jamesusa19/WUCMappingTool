@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dmodule xmlns:dc="http://www.purl.org/dc/elements/1.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:nsiv="http://www.pbmassoc.com/nsiv"
+   nsiv:spec-issue="3.0.1">
+   <idstatus>
+      <dmaddres>
+         <dmc>
+            <avee>
+               <modelic>MQ4C</modelic>
+               <sdc>AA</sdc>
+               <chapnum>08</chapnum>
+               <section>4</section>
+               <subsect>0</subsect>
+               <subject>20</subject>
+               <discode>03</discode>
+               <discodev>A</discodev>
+               <incode>941</incode>
+               <incodev>A</incodev>
+               <itemloc>A</itemloc>
+            </avee>
+         </dmc>
+         <dmtitle>
+            <techname>Forward Ballast Plate</techname>
+            <infoname>Illustrated Parts Data</infoname>
+         </dmtitle>
+         <issno issno="000" inwork="02" type="new" />
+         <issdate year="2015" month="06" day="01" />
+         <language country="US" language="en" />
+      </dmaddres>
+      <status>
+         <security class="01" />
+         <datarest>
+            <instruct>
+               <distrib>DISTRIBUTION STATEMENT D: Distribution
+                  authorized to Department of Defense and U.S. DoD
+                  contractors only; Critical Technology 18 December
+                  2007. Other requests for this document shall be
+                  referred to Naval Air Systems Command, PMA-262,
+                  Patuxent River, MD.</distrib>
+               <expcont>
+                  <expstatement>
+                     <p>This document contains technical data whose
+                        export is restricted by the Arms Export Control
+                        Act (Title 22, U.S.C., Sec. 2751 et seq.) or the
+                        Export Administration Act of 1979, as amended
+                        (Title 50, U.S.C., App. 2401, et seq.).
+                        Violation of these export-control laws is
+                        subject to severe criminal penalties.
+                        Dissemination of this document is controlled
+                        under DoD Directive 5230.25.</p>
+                  </expstatement>
+               </expcont>
+               <destruct>Comply with distribution statement and destroy
+                  by any method that will prevent disclosure of contents
+                  or reconstruction of the document.</destruct>
+            </instruct>
+         </datarest>
+         <rpc>78022</rpc>
+         <orig>78022</orig>
+         <actref>
+            <refdm>
+               <avee>
+                  <modelic>MQ4C</modelic>
+                  <sdc>AA</sdc>
+                  <chapnum>00</chapnum>
+                  <section>0</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>00W</incode>
+                  <incodev>A</incodev>
+                  <itemloc>A</itemloc>
+               </avee>
+            </refdm>
+         </actref>
+         <applic>
+            <displaytext>ALL</displaytext>
+         </applic>
+         <brexref>
+            <refdm>
+               <avee>
+                  <modelic>MQ4C</modelic>
+                  <sdc>AA</sdc>
+                  <chapnum>00</chapnum>
+                  <section>0</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>022</incode>
+                  <incodev>A</incodev>
+                  <itemloc>D</itemloc>
+               </avee>
+            </refdm>
+         </brexref>
+         <qa>
+            <firstver type="tabtop" />
+            <secver type="tabtop" />
+         </qa>
+      </status>
+   </idstatus>
+   <content>
+      <ipc>
+         <figure nsiv:suppress="false">
+            <title>Forward Ballast Plate</title>
+            <graphic
+               nsiv:boardno-uri="file:/C:/Users/blomqro/Desktop/B27/1_Air_Vehicle/25%20Mar%2017%201054/ICN-MQ4C-AA-08402003A-941-0001.CGM"
+               nsiv:file="ICN-MQ4C-AA-08402003A-941-0001.CGM" boardno="ICN-MQ4C-AA-08402003A-941-0001">
+               <hotspot apsid="hot0002" apsname="2"
+                  id="f001-s001-hot0002">
+                  <csnref refcsn="084020 1 002 " />
+               </hotspot>
+               <hotspot apsid="hot0003" apsname="3"
+                  id="f001-s001-hot0003">
+                  <csnref refcsn="084020 1 003 " />
+               </hotspot>
+               <hotspot apsid="hot0004" apsname="4"
+                  id="f001-s001-hot0004">
+                  <csnref refcsn="084020 1 004 " />
+               </hotspot>
+               <hotspot apsid="hot0005" apsname="5"
+                  id="f001-s001-hot0005">
+                  <csnref refcsn="084020 1 005 " />
+               </hotspot>
+               <hotspot apsid="hot0006" apsname="6"
+                  id="f001-s001-hot0006">
+                  <csnref refcsn="084020 1 006 " />
+               </hotspot>
+               <hotspot apsid="hot0007" apsname="7"
+                  id="f001-s001-hot0007">
+                  <csnref refcsn="084020 1 007 " />
+               </hotspot>
+               <hotspot apsid="hot0008" apsname="8"
+                  id="f001-s001-hot0008">
+                  <csnref refcsn="084020 1 008 " />
+               </hotspot>
+               <hotspot apsid="hot0009" apsname="9"
+                  id="f001-s001-hot0009">
+                  <csnref refcsn="084020 1 009 " />
+               </hotspot>
+               <hotspot apsid="hot0010" apsname="10"
+                  id="f001-s001-hot0010">
+                  <csnref refcsn="084020 1 010 " />
+               </hotspot>
+               <hotspot apsid="hot0011" apsname="11"
+                  id="f001-s001-hot0011">
+                  <csnref refcsn="084020 1 011 " />
+               </hotspot>
+            </graphic>
+         </figure>
+         <csn csn="084020 1 001 " ind="1" item="001">
+            <isn isn="00A">
+               <qna>REF</qna>
+               <mfc>78022</mfc>
+               <pnr id="d6753e141" nsiv:sfield="pnr pnripb">B001211V01011-1</pnr>
+               <pas>
+                  <dfp>KIT, INSTALLATION, FORWARD BALLAST (OTHER
+                     INSTALLATION KITS INCLUDE B001211V01011-3, -5, -7,
+                     -9, -301, -303, -305, -307, -309, -311, -313, -315,
+                     -317, -319)</dfp>
+               </pas>
+               <ces>
+                  <srv>USN</srv>
+                  <smr>XCOZZ</smr>
+                  <mov mov="A" />
+               </ces>
+            </isn>
+         </csn>
+         <csn csn="084020 1 002 " ind="2" item="002">
+            <isn isn="00A">
+               <qna>AR</qna>
+               <mfc>78022</mfc>
+               <pnr id="d6753e158" nsiv:sfield="pnr pnripb">B001200K01003-1</pnr>
+               <pas>
+                  <dfp>PLATE, FORWARD BALLAST (MAXIMUM QUANTITY 8,
+                     MINIMUM 1, PER MOUNTING LOCATION)</dfp>
+               </pas>
+               <ces>
+                  <srv>USN</srv>
+                  <smr>PAOZZ</smr>
+                  <mov mov="A" />
+               </ces>
+            </isn>
+         </csn>
+         <csn csn="084020 1 003 " ind="2" item="003">
+            <isn isn="00A">
+               <qna>AR</qna>
+               <mfc>80205</mfc>
+               <pnr id="d6753e175" nsiv:sfield="pnr pnripb">NAS6304U16</pnr>
+               <pas>
+                  <dfp>BOLT (QUANTITY 4 PER MOUNTING LOCATION WHEN 1
+                     BALLAST PLATE INSTALLED)</dfp>
+               </pas>
+               <ces>
+                  <srv>USN</srv>
+                  <smr>PAOZZ</smr>
+                  <mov mov="A" />
+               </ces>
+            </isn>
+         </csn>
+         <csn csn="084020 1 004 " ind="2" item="004">
+            <isn isn="00A">
+               <qna>AR</qna>
+               <mfc>80205</mfc>
+               <pnr id="d6753e192" nsiv:sfield="pnr pnripb">NAS6304U20</pnr>
+               <pas>
+                  <dfp>BOLT (QUANTITY 4 PER MOUNTING LOCATION WHEN 2
+                     BALLAST PLATES INSTALLED)</dfp>
+               </pas>
+               <ces>
+                  <srv>USN</srv>
+                  <smr>PAOZZ</smr>
+                  <mov mov="A" />
+               </ces>
+            </isn>
+         </csn>
+         <csn csn="084020 1 005 " ind="2" item="005">
+            <isn isn="00A">
+               <qna>AR</qna>
+               <mfc>80205</mfc>
+               <pnr id="d6753e209" nsiv:sfield="pnr pnripb">NAS6304U24</pnr>
+               <pas>
+                  <dfp>BOLT (QUANTITY 4 PER MOUNTING LOCATION WHEN 3
+                     BALLAST PLATES INSTALLED)</dfp>
+               </pas>
+               <ces>
+                  <srv>USN</srv>
+                  <smr>PAOZZ</smr>
+                  <mov mov="A" />
+               </ces>
+            </isn>
+         </csn>
+         <csn csn="084020 1 006 " ind="2" item="006">
+            <isn isn="00A">
+               <qna>AR</qna>
+               <mfc>80205</mfc>
+               <pnr id="d6753e226" nsiv:sfield="pnr pnripb">NAS6304U27</pnr>
+               <pas>
+                  <dfp>BOLT (QUANTITY 4 PER MOUNTING LOCATION WHEN 4
+                     BALLAST PLATES INSTALLED)</dfp>
+               </pas>
+               <ces>
+                  <srv>USN</srv>
+                  <smr>PAOZZ</smr>
+                  <mov mov="A" />
+               </ces>
+            </isn>
+         </csn>
+         <csn csn="084020 1 007 " ind="2" item="007">
+            <isn isn="00A">
+               <qna>AR</qna>
+               <mfc>80205</mfc>
+               <pnr id="d6753e243" nsiv:sfield="pnr pnripb">NAS6304U31</pnr>
+               <pas>
+                  <dfp>BOLT (QUANTITY 4 PER MOUNTING LOCATION WHEN 5
+                     BALLAST PLATES INSTALLED)</dfp>
+               </pas>
+               <ces>
+                  <srv>USN</srv>
+                  <smr>PAOZZ</smr>
+                  <mov mov="A" />
+               </ces>
+            </isn>
+         </csn>
+         <csn csn="084020 1 008 " ind="2" item="008">
+            <isn isn="00A">
+               <qna>AR</qna>
+               <mfc>80205</mfc>
+               <pnr id="d6753e260" nsiv:sfield="pnr pnripb">NAS6304U35D</pnr>
+               <pas>
+                  <dfp>BOLT (QUANTITY 4 PER MOUNTING LOCATION WHEN 6
+                     BALLAST PLATES INSTALLED)</dfp>
+               </pas>
+               <ces>
+                  <srv>USN</srv>
+                  <smr>PAOZZ</smr>
+                  <mov mov="A" />
+               </ces>
+            </isn>
+         </csn>
+         <csn csn="084020 1 009 " ind="2" item="009">
+            <isn isn="00A">
+               <qna>AR</qna>
+               <mfc>80205</mfc>
+               <pnr id="d6753e277" nsiv:sfield="pnr pnripb">NAS6304U39DH</pnr>
+               <pas>
+                  <dfp>BOLT (QUANTITY 4 PER MOUNTING LOCATION WHEN 7
+                     BALLAST PLATES INSTALLED)</dfp>
+               </pas>
+               <ces>
+                  <srv>USN</srv>
+                  <smr>PAOZZ</smr>
+                  <mov mov="A" />
+               </ces>
+            </isn>
+         </csn>
+         <csn csn="084020 1 010 " ind="2" item="010">
+            <isn isn="00A">
+               <qna>AR</qna>
+               <mfc>80205</mfc>
+               <pnr id="d6753e294" nsiv:sfield="pnr pnripb">NAS6304U44D</pnr>
+               <pas>
+                  <dfp>BOLT (QUANTITY 4 PER MOUNTING LOCATION WHEN 8
+                     BALLAST PLATES INSTALLED)</dfp>
+               </pas>
+               <ces>
+                  <srv>USN</srv>
+                  <smr>PAOZZ</smr>
+                  <mov mov="A" />
+               </ces>
+            </isn>
+         </csn>
+         <csn csn="084020 1 011 " ind="2" item="011">
+            <isn isn="00A">
+               <qna>AR</qna>
+               <mfc>80205</mfc>
+               <pnr id="d6753e312" nsiv:sfield="pnr pnripb">NAS1149C0463R</pnr>
+               <pas>
+                  <dfp>WASHER, FLAT (QUANTITY 4 PER MOUNTING LOCATION)</dfp>
+               </pas>
+               <ces>
+                  <srv>USN</srv>
+                  <smr>PAOZZ</smr>
+                  <mov mov="A" />
+               </ces>
+            </isn>
+         </csn>
+         <csn csn="084020 1 011 " ind="2" item="011">
+            <isn isn="00A">
+               <qna>AR</qna>
+               <mfc>80205</mfc>
+               <pnr id="d6753e312" nsiv:sfield="pnr pnripb">B001250N01046-1</pnr>
+               <pas>
+                  <dfp>TEST ITEM</dfp>
+               </pas>
+               <ces>
+                  <srv>USN</srv>
+                  <smr>PAOZZ</smr>
+                  <mov mov="A" />
+               </ces>
+            </isn>
+         </csn>
+         <csn csn="084020 1 011 " ind="2" item="011">
+            <isn isn="00A">
+               <qna>AR</qna>
+               <mfc>80205</mfc>
+               <pnr id="d6753e312" nsiv:sfield="pnr pnripb">B001250N01046-1</pnr>
+               <pas>
+                  <dfp>SECOND TEST ITEM</dfp>
+               </pas>
+               <ces>
+                  <srv>USN</srv>
+                  <smr>PAOZZ</smr>
+                  <mov mov="A" />
+               </ces>
+            </isn>
+         </csn>
+         <csn csn="084020 1 011 " ind="2" item="011">
+            <isn isn="00A">
+               <qna>AR</qna>
+               <mfc>80205</mfc>
+               <pnr id="d6753e312" nsiv:sfield="pnr pnripb">B001273F01021-1</pnr>
+               <pas>
+                  <dfp>THIRD TEST ITEM</dfp>
+               </pas>
+               <ces>
+                  <srv>USN</srv>
+                  <smr>PAOZZ</smr>
+                  <mov mov="A" />
+               </ces>
+            </isn>
+         </csn>
+      </ipc>
+   </content>
+</dmodule>

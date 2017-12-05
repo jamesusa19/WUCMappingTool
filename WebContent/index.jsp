@@ -9,6 +9,10 @@
 </head>
 <body>
 	<form action="${pageContext.request.contextPath}/WucMappingGenerator" method="post">
+		<p>Pubs Location: <input name="pubs" /></p>
+		<p>Baseline Report Location: <input name="baseline" /></p>
+		<p>Output Mapping File Name: <input name="csv" /></p>
+		<p>Log File Name: <input name="log" /></p>
 	    <input type="submit" name="run" value="Run Generator" />
 	</form>
 </body>

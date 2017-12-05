@@ -14,13 +14,14 @@ public class WucMappingGenerator extends HttpServlet{
 
 	@Override
    protected void doPost(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
+	  System.out.println(req.getParameter("baseline"));
       // Send the fileLocation to a PubTypeOrganizer to seperate out pubs.
-      PubTypeOrganizer pubOrganizer = new PubTypeOrganizer().seperatePubTypesForDirectory("TestAssets");
+      PubTypeOrganizer pubOrganizer = new PubTypeOrganizer().seperatePubTypesForDirectory(req.getParameter("pubs"));
 
       // Create an IpdFile object for each 941 file found.
       List<IpdModel> ipdFilesList = Lists.newArrayList();
       for (String fileName : pubOrganizer.getIpdFileNameList()) {
-         ipdFilesList.add(new IpdModel(fileName).setParentDirectoryPath("TestAssets"));
+         ipdFilesList.add(new IpdModel(fileName).setParentDirectoryPath(req.getParameter("pubs")));
       }
 
       // Make an ipdParser
@@ -31,7 +32,7 @@ public class WucMappingGenerator extends HttpServlet{
       }
 
       // Create the WucBaseline and comparer
-      Comparer comparer = new Comparer(new WucBaselineData("TestAssets/MQ-4C_UAV_WUCBaselineReportAsOf2017-06-12.txt"));
+      Comparer comparer = new Comparer(new WucBaselineData(req.getParameter("baseline")));
 
       // For each IpdFile, send it to the WucBaseline and have the wucs be set
       for (IpdModel ipdFile : ipdFilesList) {
@@ -39,7 +40,7 @@ public class WucMappingGenerator extends HttpServlet{
       }
 
       // Create a WucMappingFileWriter
-      WucMappingFileWriter wucMappingFileWriter = new WucMappingFileWriter("TestAssets/testWucWriterFile.csv");
+      WucMappingFileWriter wucMappingFileWriter = new WucMappingFileWriter(req.getParameter("csv"));
       // Send the ipdFiles to the wucMappingFileWriter to be written out to the
       // file
       for (IpdModel ipdFile : ipdFilesList) {
@@ -48,7 +49,7 @@ public class WucMappingGenerator extends HttpServlet{
       wucMappingFileWriter.close();
 
       // Log Those files not Listed
-      WucMappingGeneratorLogger logger = new WucMappingGeneratorLogger("TestAssets/wucGeneratorLog.txt");
+      WucMappingGeneratorLogger logger = new WucMappingGeneratorLogger(req.getParameter("log"));
       logger.logFilesNotCoveredInWucMappingFor(pubOrganizer);
       logger.close();
       res.sendRedirect(req.getContextPath() + "/index.jsp");

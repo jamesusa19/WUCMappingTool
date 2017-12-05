@@ -51,8 +51,6 @@ public class WucMappingGenerator extends HttpServlet{
       WucMappingGeneratorLogger logger = new WucMappingGeneratorLogger("TestAssets/wucGeneratorLog.txt");
       logger.logFilesNotCoveredInWucMappingFor(pubOrganizer);
       logger.close();
-      PrintWriter out = res.getWriter();
-      out.println("Finished");
       res.sendRedirect(req.getContextPath() + "/index.jsp");
    }
 

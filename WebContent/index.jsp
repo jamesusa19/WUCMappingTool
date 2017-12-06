@@ -9,19 +9,19 @@
 </head>
 <body>
 	<form action="${pageContext.request.contextPath}/WucMappingGenerator" method="post">
-		<p>Pubs Location: <input name="pubs" id="pubs" /><button type="button" onclick="browseFolder()">Browse</button></p>
-		<p>Baseline Report Location: <input name="baseline" /></p>
+		<p>Pubs Folder Location: <input name="pubs" id="pubs" /><button type="button" name="pubs" onclick="browseFolder(this)">Browse Folder</button></p>
+		<p>Baseline Report File Location: <input name="baseline" id="baseline"/><button type="button" name="baseline" onclick="browseFolder(this)">Browse File</button></p>
 		<p>Output Mapping File Name: <input name="csv" /></p>
 		<p>Log File Name: <input name="log" /></p>
 	    <input type="submit" name="run" value="Run Generator" />
 	</form>
 </body>
 <script>
-	function browseFolder() {
+	function browseFolder(element) {
 		var xmlHttpReq = new XMLHttpRequest();
 		xmlHttpReq.onreadystatechange = function(){
-			if (xmlHttpReq.readyState==4 && xmlHttpReq.status==200){
-				document.getElementById("pubs").value = xmlHttpReq.responseText;
+			if (xmlHttpReq.readyState==4 && xmlHttpReq.status==200){	
+				document.getElementById(element.getAttribute("name")).value = xmlHttpReq.responseText;
 			}
 		}
 		xmlHttpReq.open("GET", "./BrowseFolder", true);

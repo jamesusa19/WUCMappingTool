@@ -17,7 +17,7 @@ public class BrowseFolderServlet extends HttpServlet  {
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
 		JFileChooser fc = new JFileChooser(FileSystemView.getFileSystemView().getHomeDirectory());
-		fc.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
+		fc.setFileSelectionMode(JFileChooser.FILES_AND_DIRECTORIES);
 		int returnValue = fc.showOpenDialog(null);
 
 		res.setContentType("text/plain");

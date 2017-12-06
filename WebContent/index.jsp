@@ -4,8 +4,9 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Wuc Mapping Tool</title>
+	<link rel="stylesheet" type="text/css" href="./css/index.css" />
 </head>
 <body>
 	<form action="${pageContext.request.contextPath}/WucMappingGenerator" method="post">
@@ -16,16 +17,5 @@
 	    <input type="submit" name="run" value="Run Generator" />
 	</form>
 </body>
-<script>
-	function browseFolder(element) {
-		var xmlHttpReq = new XMLHttpRequest();
-		xmlHttpReq.onreadystatechange = function(){
-			if (xmlHttpReq.readyState==4 && xmlHttpReq.status==200){	
-				document.getElementById(element.getAttribute("name")).value = xmlHttpReq.responseText;
-			}
-		}
-		xmlHttpReq.open("GET", "./BrowseFolder", true);
-		xmlHttpReq.send();
-	}
-</script>
+<script src="./js/index.js"></script>
 </html>

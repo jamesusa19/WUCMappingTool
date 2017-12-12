@@ -10,12 +10,13 @@
 </head>
 <body>
 	<form action="${pageContext.request.contextPath}/WucMappingGenerator" method="post">
-		<p>Pubs Folder Location: <input name="pubs" id="pubs" /><button type="button" name="pubs" onclick="browseFolder(this)">Browse Folder</button></p>
-		<p>Baseline Report File Location: <input name="baseline" id="baseline"/><button type="button" name="baseline" onclick="browseFolder(this)">Browse File</button></p>
+		<p>Pubs Folder Location: <input name="pubs" id="pubs" /></p>
+		<p>Baseline Report File Location: <input name="baseline" id="baseline"/></p>
 		<p>Output Mapping File Name: <input name="csv" /></p>
 		<p>Log File Name: <input name="log" /></p>
 	    <input type="submit" name="run" value="Run Generator" />
 	</form>
 </body>
+<script src="./js/jquery-3.2.1.min.js"></script>
 <script src="./js/index.js"></script>
 </html>

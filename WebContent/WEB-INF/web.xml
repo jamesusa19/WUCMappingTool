@@ -8,17 +8,9 @@
   		<servlet-name>WucMappingGenerator</servlet-name>
   		<servlet-class>myservlets.WucMappingGenerator</servlet-class>
 	</servlet>
-	<servlet>
-		<servlet-name>BrowseFolder</servlet-name>
-		<servlet-class>myservlets.BrowseFolder</servlet-class>
-	</servlet>
 	<servlet-mapping>
 	  <servlet-name>WucMappingGenerator</servlet-name>
 	  <url-pattern>/WucMapping/</url-pattern>
-	</servlet-mapping>
-	<servlet-mapping>
-		<servlet-name>BrowseFolder</servlet-name>
-		<url-pattern>/BrowseFolder/</url-pattern>
 	</servlet-mapping>
 	<servlet-mapping>
 		<servlet-name>default</servlet-name>

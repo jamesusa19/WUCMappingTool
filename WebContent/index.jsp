@@ -16,20 +16,15 @@
 	<button id="newMapping">Open Mapping</button>
 	<button id="newMapping">Delete</button>
 	<button id="newMapping">Save</button>
-	<table>
+	<table id="mappings">
 		<tr>
 			<td>Select</td>
 			<td>Mapping Name</td>
 			<td>Location</td>
 			<td>Baseline Report</td>
 		</tr>
-		<tr>
-			<td><input type="checkbox"></td>
-			<td>map1</td>
-			<td>nsiv/pubs</td>
-			<td>baselineReport1.txt</td>
-		</tr>
 	</table>
+	<button id="test">addrows</button>
 </body>
 <script src="./js/jquery-3.2.1.min.js"></script>
 <script src="./js/index.js"></script>

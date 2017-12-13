@@ -13,10 +13,10 @@
 		<h1>Generate New Mapping</h1>
 	</header>
 	<form action="${pageContext.request.contextPath}/WucMappingGenerator" method="post">
-		<p>Pubs Folder Location: <input name="pubs"/></p>
-		<p>Baseline Report File Location: <input name="baseline"/></p>
-		<p>Output Mapping File Name: <input name="csv" /></p>
-		<p>Log File Name: <input name="log" /></p>
+		<p>Pubs Folder Location: <input name="pubs"required/></p>
+		<p>Baseline Report File Location: <input name="baseline" required/></p>
+		<p>Output Mapping File Name: <input name="csv"required /></p>
+		<p>Log File Name: <input name="log" required/></p>
 	    <input type="submit" name="run" value="Run Generator" />
 	</form>
 </body>

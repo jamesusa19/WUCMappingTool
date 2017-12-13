@@ -14,7 +14,6 @@ public class WucMappingGenerator extends HttpServlet{
 
 	@Override
    protected void doPost(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
-	  System.out.println(req.getParameter("baseline"));
       // Send the fileLocation to a PubTypeOrganizer to seperate out pubs.
       PubTypeOrganizer pubOrganizer = new PubTypeOrganizer().seperatePubTypesForDirectory(req.getParameter("pubs"));
 

@@ -8,6 +8,10 @@
   		<servlet-name>WucMappingGenerator</servlet-name>
   		<servlet-class>myservlets.WucMappingGenerator</servlet-class>
 	</servlet>
+	<servlet>
+		<servlet-name>newMapping</servlet-name>
+		<jsp-file>/jsp/newMapping.jsp</jsp-file>
+	</servlet>
 	<servlet-mapping>
 	  <servlet-name>WucMappingGenerator</servlet-name>
 	  <url-pattern>/WucMapping/</url-pattern>
@@ -19,5 +23,9 @@
 	<servlet-mapping>
 		<servlet-name>default</servlet-name>
 		<url-pattern>/css/*</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>newMapping</servlet-name>
+		<url-pattern>/newMapping</url-pattern>
 	</servlet-mapping>
 </web-app>

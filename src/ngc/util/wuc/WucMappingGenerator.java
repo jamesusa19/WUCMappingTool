@@ -10,6 +10,9 @@ import java.io.*;
 
 import com.google.common.collect.Lists;
 
+import org.json.JSONObject;
+import org.json.JSONException;
+
 @WebServlet("/WucMappingGenerator")
 public class WucMappingGenerator extends HttpServlet{
 	private static final long serialVersionUID = 1L;
@@ -63,7 +66,20 @@ public class WucMappingGenerator extends HttpServlet{
 
 		}
 		finally{
-			res.sendRedirect(req.getContextPath() + "/newMapping");
+			JSONObject obj = new JSONObject();
+			try {
+				obj.put("csv",req.getParameter("csv"));
+				obj.put("log",req.getParameter("log"));
+				obj.put("baseline",req.getParameter("baseline"));
+				obj.put("pubs",req.getParameter("pubs"));
+			}
+			catch(JSONException e) {
+				System.out.println("error in JSON");
+			}
+			
+			res.setContentType("application/json");
+			req.setAttribute("runParams", obj.toString());
+			req.getRequestDispatcher("newMapping").forward(req, res);
 		}
 	}
 

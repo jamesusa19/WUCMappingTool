@@ -19,13 +19,14 @@
 	<table id="mappings">
 		<tr>
 			<td>Select</td>
-			<td>Mapping Name</td>
-			<td>Location</td>
+			<td>Mapping CSV</td>
+			<td>Log File</td>
 			<td>Baseline Report</td>
+			<td>Pubs Location</td>
 		</tr>
 	</table>
-	<button id="test">addrows</button>
+	<button id="test">Add Rows</button>
 </body>
-<script src="./js/jquery-3.2.1.min.js"></script>
-<script src="./js/index.js"></script>
+<script type="text/javascript" src="./js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="./js/index.js"></script>
 </html>

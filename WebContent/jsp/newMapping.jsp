@@ -20,4 +20,14 @@
 	    <input type="submit" name="run" value="Run Generator" />
 	</form>
 </body>
+<script src="./js/jquery-3.2.1.min.js"></script>
+<script>
+	$( document ).ready(function() {
+	    var JSON = '${runParams}';
+	    if(JSON){
+	    	window.opener.addRow(JSON);
+	    	window.close();
+	    }
+	});
+</script>
 </html>

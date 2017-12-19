@@ -16,27 +16,15 @@ function openWindow(fileName){
 	window.open(fileName, 'New Mapping', 'width=400, height=400');
 }
 
-function addRows() {
-	var json = [
-		{
-			"csv": "out.csv",
-			"folder": "folder",
-			"baseline": "baseline"
-		},
-		{
-			"csv": "out1.csv",
-			"folder": "folder1",
-			"baseline": "baseline1"
-		}
-	];
+function addRow(rowInfo) {
+	console.log(rowInfo);
+	var rowJSON = JSON.parse(rowInfo);
 	$('#mappings tr:last').after(function(){
-		let rows = "";
-		for(index in json){
-			rows += "<tr><td><input type='checkbox'></td>";
-			rows += "<td>" + json[index].csv + "</td>";
-			rows += "<td>" + json[index].folder + "</td>";
-			rows += "<td>" + json[index].baseline + "</td></tr>";
-		}
-		return rows;
+		row = "<tr><td><input type='checkbox'></td>";
+		row += "<td>" + rowJSON.csv + "</td>";
+		row += "<td>" + rowJSON.log + "</td>";
+		row += "<td>" + rowJSON.baseline + "</td>";
+		row += "<td>" + rowJSON.pubs + "</td></tr>";
+		return row;
 	})
 }

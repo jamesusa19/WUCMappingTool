@@ -78,7 +78,7 @@ public class WucMappingGenerator extends HttpServlet{
 			}
 			
 			res.setContentType("application/json");
-			req.setAttribute("runParams", obj.toString());
+			req.setAttribute("runParams", obj);
 			req.getRequestDispatcher("newMapping").forward(req, res);
 		}
 	}

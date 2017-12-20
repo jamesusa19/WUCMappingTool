@@ -7,6 +7,8 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Wuc Mapping Tool</title>
 	<link rel="stylesheet" type="text/css" href="./css/index.css" />
+	<script type="text/javascript" src="./js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="./js/index.js"></script>
 </head>
 <body>
 	<header>
@@ -27,6 +29,4 @@
 	</table>
 	<button id="test">Add Rows</button>
 </body>
-<script type="text/javascript" src="./js/jquery-3.2.1.min.js"></script>
-<script type="text/javascript" src="./js/index.js"></script>
 </html>

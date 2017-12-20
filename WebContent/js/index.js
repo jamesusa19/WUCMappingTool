@@ -17,8 +17,7 @@ function openWindow(fileName){
 }
 
 function addRow(rowInfo) {
-	console.log(rowInfo);
-	var rowJSON = JSON.parse(rowInfo);
+	var rowJSON = $.parseJSON(rowInfo);
 	$('#mappings tr:last').after(function(){
 		row = "<tr><td><input type='checkbox'></td>";
 		row += "<td>" + rowJSON.csv + "</td>";

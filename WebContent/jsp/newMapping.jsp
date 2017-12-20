@@ -13,21 +13,14 @@
 		<h1>Generate New Mapping</h1>
 	</header>
 	<form action="${pageContext.request.contextPath}/WucMappingGenerator" method="post">
-		<p>Pubs Folder Location: <input name="pubs"required/></p>
+		<p>Pubs Folder Location: <input name="pubs" required/></p>
 		<p>Baseline Report File Location: <input name="baseline" required/></p>
-		<p>Output Mapping File Name: <input name="csv"required /></p>
+		<p>Output Mapping File Name: <input name="csv" required /></p>
 		<p>Log File Name: <input name="log" required/></p>
 	    <input type="submit" name="run" value="Run Generator" />
 	</form>
+	<input id="json" name="json" type="hidden" value='${runParams}' />
+	<script src="./js/jquery-3.2.1.min.js"></script>
+	<script src="./js/newMapping.js"></script>
 </body>
-<script src="./js/jquery-3.2.1.min.js"></script>
-<script>
-	$( document ).ready(function() {
-	    var JSON = '${runParams}';
-	    if(JSON){
-	    	window.opener.addRow(JSON);
-	    	window.close();
-	    }
-	});
-</script>
 </html>
